@@ -51,6 +51,7 @@ body {
     display: flex;
     align-items: center;
     gap: 32px;
+    font-family: "Figtree", sans-serif;
 }
 
 .nav-left a {
@@ -68,11 +69,12 @@ body {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+    font-family: "Figtree", sans-serif;
 }
 
 .logo a {
     color: var(--primary);
-    font-size: 22px;
+    font-size: 1.6rem;
 }
 
 .logo-bold {
@@ -108,7 +110,7 @@ body {
 
 .hero {
     padding: 80px 0 100px;
-    background: #f5f5f5;
+    background: #fff;
 }
 
 .hero-container {
@@ -130,13 +132,16 @@ body {
     font-weight: 700;
     color: #133b68;
     margin-bottom: 28px;
+    font-family: "Figtree", sans-serif;
 }
+
 
 .hero-description {
     font-size: 20px;
     line-height: 30px;
     color: #64748b;
     margin-bottom: 40px;
+    font-family: "Figtree", sans-serif;
 }
 
 /* BUTTON */
@@ -147,12 +152,13 @@ body {
     gap: 12px;
     background: #133b68;
     color: #fff;
-    padding: 18px 28px;
+    padding: 13px 28px;
     border-radius: 40px;
     font-size: 1rem;
     font-weight: normal;
     transition: all .3s ease;
     letter-spacing: 0.02rem;
+    font-family: "Figtree", sans-serif;
 }
 
 .btn-primary:hover {
@@ -185,23 +191,23 @@ body {
 
 .benefits {
     padding: 120px 0;
-    background: #f5f5f5;
+    background: #F3F5F7;
 }
 
 /* Header */
 
 .section-header {
-    text-align: center;
-    max-width: 1000px;
-    margin: 0 auto 80px;
+    text-align: left;
+    max-width: auto;
+    margin: 0 auto 50px;
 }
 
 .section-title {
-    font-size: 3rem;
-    font-weight: 700;
+    font-size: 2.6rem;
+    font-weight: 600;
     line-height: 1.2;
     color: #133b68;
-    margin-bottom: 12px;
+    font-family: "Figtree", sans-serif;
 }
 
 .section-title span {
@@ -209,10 +215,11 @@ body {
 }
 
 .section-subtitle {
-    font-size: 1.9rem;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 200;
     color: #64748b;
     line-height: 1.5;
+    font-family: "Figtree", sans-serif;
 }
 
 /* Main Layout */
@@ -242,14 +249,15 @@ body {
 }
 
 .feature-item {
-    margin-bottom: 34px;
+    margin-bottom: 26px;
 }
 
 .feature-item h3 {
     color: #133b68;
-    font-size: 1.75rem;
+    font-size: 1.30rem;
     font-weight: 400;
     margin-bottom: 12px;
+    font-family: "Figtree", sans-serif;
 }
 
 .feature-item strong {
@@ -259,15 +267,15 @@ body {
 .feature-card {
     background: #ffffff;
     border-radius: 12px;
-    padding: 22px 24px;
-
+    padding: 19px;
+    font-family: "Figtree", sans-serif;
     box-shadow:
         0 4px 20px rgba(0,0,0,.05);
 }
 
 .feature-card p {
     color: #64748b;
-    font-size: 1.1rem;
+    font-size: 1.01rem;
     line-height: 1.8;
 }
 
@@ -283,7 +291,7 @@ body {
 
 .treatments {
     padding: 120px 0;
-    background: #f5f5f5;
+    background: #E7EAEE;
 }
 
 .treatment-grid {
@@ -311,6 +319,7 @@ body {
     color: #fff;
     font-size: 2rem;
     font-weight: 400;
+    font-family: "Figtree", sans-serif;
 }
 
 .panel-header h3 span {
@@ -320,13 +329,11 @@ body {
 .see-all-btn {
     background: #fff;
     color: #123b67;
-
+    font-family: "Figtree", sans-serif;
     padding: 12px 24px;
     border-radius: 999px;
-
     font-size: .95rem;
     font-weight: 500;
-
     transition: .3s;
 }
 
@@ -386,14 +393,16 @@ body {
 
 .card-footer {
     margin-top: 14px;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    font-family: "Figtree", sans-serif;
     color: #123b67;
     font-size: .95rem;
     font-weight: 600;
+}
+.card-footer .arrow-up-right{
+    color: rgba(14, 50, 86, 0.7);
 }
 
 /* HOVER */
@@ -414,7 +423,7 @@ body {
 
 .popular-treatments {
     padding: 120px 0;
-    background: #f5f5f5;
+    background: #F3F5F7;
 }
 
 /* Products Grid */
@@ -446,13 +455,11 @@ body {
     position: absolute;
     top: 24px;
     left: 0;
-
+    font-family: "Figtree", sans-serif;
     background: #61728a;
     color: #fff;
-
     padding: 8px 18px;
-
-    font-size: .9rem;
+    font-size: 16px;
     z-index: 2;
 
     clip-path: polygon(
@@ -486,19 +493,23 @@ body {
 
 .product-content h3 {
     color: #123b67;
-    font-size: 1.9rem;
+    font-size: 1.2rem;
     margin-bottom: 8px;
+    font-family: "Figtree", sans-serif;
 }
 
 .product-category {
     color: #64748b;
     margin-bottom: 6px;
+    font-size: 14px;
+    font-family: "Figtree", sans-serif;
 }
 
 .product-description {
     color: #64748b;
     line-height: 1.6;
     margin-bottom: 26px;
+    font-size: 14px;
 }
 
 .product-price {
@@ -508,11 +519,13 @@ body {
 .product-price strong {
     color: #123b67;
     font-size: 1.6rem;
+    font-family: "Figtree", sans-serif;
+    
 }
 
 .product-price span {
     color: #64748b;
-    font-size: .95rem;
+    font-size: 14px;
 }
 
 /* Button */
@@ -521,15 +534,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-family: "Figtree", sans-serif;
     border: 1px solid #123b67;
     border-radius: 50px;
-
     padding: 14px 24px;
-
     color: #123b67;
     font-weight: 500;
-
     transition: .3s;
 }
 
@@ -575,4 +585,182 @@ body {
 
 .product-btn {
     margin-top: auto;
+}
+
+
+
+/* ====================================
+   SECTION -- Our Customers Say
+==================================== */
+
+.reviews-section {
+    background: #567089;
+    padding: 60px 20px;
+    border-radius: 15px;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+
+/* ====================================
+   TRUSTPILOT
+==================================== */
+
+.trustpilot-rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    color: white;
+}
+
+.trustpilot-rating img {
+    width: 100px;
+}
+
+/* ====================================
+   REVIEWS
+==================================== */
+
+.reviews-wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    margin-top: 30px;
+
+    scrollbar-width: none;
+}
+
+.reviews-wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+.review-card {
+    flex: 0 0 300px;
+    background: var(--card-bg);
+    border-radius: 20px;
+    overflow: hidden;
+    transition: 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+}
+
+.review-image {
+    height: 200px;
+    object-fit: cover;
+}
+
+.review-content {
+    padding: 20px;
+}
+
+.review-content h3 {
+    color: var(--text-dark);
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+}
+
+.stars {
+    color: var(--star-green);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.review-content p {
+    color: #4f5f73;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.reviewer {
+    font-weight: 700;
+    color: var(--text-dark);
+}
+
+/* ====================================
+   DOTS
+==================================== */
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: var(--dot-color);
+}
+
+.dot.active {
+    background: white;
+}
+
+/* ====================================
+   LINK
+==================================== */
+
+.review-link {
+    text-align: right;
+    margin-top: 25px;
+}
+
+.review-link a {
+    color: white;
+    text-decoration: underline;
+    transition: .3s;
+}
+
+.review-link a:hover {
+    opacity: .8;
+}
+
+/* ====================================
+   TABLET
+==================================== */
+
+@media (min-width: 768px) {
+
+    .section-header h2 {
+        font-size: 3rem;
+    }
+
+    .section-header p {
+        font-size: 1.5rem;
+    }
+
+    .review-card {
+        flex: 0 0 350px;
+    }
+}
+
+/* ====================================
+   DESKTOP
+==================================== */
+
+@media (min-width: 1200px) {
+
+    .reviews-wrapper {
+        overflow: visible;
+    }
+
+    .review-card {
+        flex: 1;
+    }
+}
+
+.review-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,.15);
+}
+.review-link a:hover {
+    padding-right: 5px;
 }
