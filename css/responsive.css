@@ -25,31 +25,6 @@
     .nav-actions button {
         font-size: 22px;
     }
-}
-
-@media (max-width: 992px) {
-
-    .hero-container {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-content {
-        max-width: 100%;
-    }
-
-    .hero-title {
-        font-size: 3rem;
-    }
-
-    .hero-description {
-        max-width: 650px;
-        margin-inline: auto;
-    }
-}
-
-@media (max-width: 768px) {
-
     .hero {
         padding: 50px 0;
     }
@@ -77,30 +52,6 @@
     .hero-image img {
         border-radius: 24px;
     }
-}
-
-@media (max-width: 992px) {
-
-    .benefits-wrapper {
-        flex-direction: column;
-    }
-
-    .benefits-image,
-    .benefits-content {
-        width: 100%;
-    }
-
-    .section-title {
-        font-size: 2.5rem;
-    }
-
-    .section-subtitle {
-        font-size: 1.4rem;
-    }
-}
-
-@media (max-width: 768px) {
-
     .benefits {
         padding: 70px 0;
     }
@@ -129,17 +80,6 @@
         font-size: 0.95rem;
         line-height: 1.6;
     }
-}
-
-@media (max-width: 1200px) {
-
-    .treatment-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-@media (max-width: 768px) {
-
     .treatments {
         padding: 70px 0;
     }
@@ -169,18 +109,6 @@
     .panel-header h3 {
         font-size: 1.6rem;
     }
-}
-
-@media (max-width: 1200px) {
-
-    .product-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-}
-
-@media (max-width: 768px) {
-
     .popular-treatments {
         padding: 70px 0;
     }
@@ -196,5 +124,141 @@
     .product-image img {
         width: 180px;
     }
+    .how-it-works {
+        padding: 70px 0;
+    }
 
+    .step-card {
+        min-height: 320px;
+    }
+
+    .step-heading h3 {
+        font-size: 1.25rem;
+    }
+
+    .step-number {
+        width: 36px;
+        height: 36px;
+        font-size: 1rem;
+    }
+
+    .step-content p {
+        font-size: 0.95rem;
+    }
+    .faq-section{
+        padding:70px 0;
+    }
+
+    .faq-question{
+        font-size:1rem;
+        padding:20px;
+    }
+
+    .faq-icon{
+        font-size:1.5rem;
+    }
+
+}
+@media (min-width: 768px) {
+
+    .reviews-section .section-header h2 {
+        font-size: 40px;
+        color: var(--white);
+        font-family: "Figtree", sans-serif;
+        font-weight: 600;
+    }
+
+    .reviews-section .section-header p {
+        font-size: 2rem;
+        color: var(--white);
+        font-family: "Figtree", sans-serif;
+        font-weight: 300;
+    }
+
+    .review-card {
+        flex: 0 0 350px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-description {
+        max-width: 650px;
+        margin-inline: auto;
+    }
+    .benefits-wrapper {
+        flex-direction: column;
+    }
+
+    .benefits-image,
+    .benefits-content {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 1.4rem;
+    }
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .step-card {
+        min-height: 380px;
+    }
+    .contact-wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-content {
+        max-width: 100%;
+    }
+
+    .contact-icons {
+        justify-content: center;
+    }
+
+    .bubble-top,
+    .bubble-bottom,
+    .logo-bubble {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .treatment-grid {
+        grid-template-columns: 1fr;
+    }
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .reviews-wrapper {
+        overflow: visible;
+    }
+
+    .review-card {
+        flex: 1;
+    }
 }
