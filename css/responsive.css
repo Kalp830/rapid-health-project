@@ -1,0 +1,200 @@
+
+@media (max-width: 768px) {
+
+    .header .container {
+        height: 70px;
+    }
+
+    .nav-left {
+        display: none;
+    }
+
+    .logo {
+        position: static;
+        transform: none;
+    }
+
+    .header .container {
+        justify-content: space-between;
+    }
+
+    .logo a {
+        font-size: 20px;
+    }
+
+    .nav-actions button {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-description {
+        max-width: 650px;
+        margin-inline: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero-container {
+        gap: 40px;
+    }
+
+    .hero-title {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .btn-primary {
+        padding: 14px 22px;
+        font-size: 0.95rem;
+    }
+
+    .hero-image img {
+        border-radius: 24px;
+    }
+}
+
+@media (max-width: 992px) {
+
+    .benefits-wrapper {
+        flex-direction: column;
+    }
+
+    .benefits-image,
+    .benefits-content {
+        width: 100%;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
+    }
+
+    .section-subtitle {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .benefits {
+        padding: 70px 0;
+    }
+
+    .section-header {
+        margin-bottom: 50px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+    }
+
+    .section-subtitle {
+        font-size: 1rem;
+    }
+
+    .feature-item h3 {
+        font-size: 1.2rem;
+    }
+
+    .feature-card {
+        padding: 18px;
+    }
+
+    .feature-card p {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .treatment-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .treatments {
+        padding: 70px 0;
+    }
+
+    .panel-header {
+        flex-direction: column;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .panel-content {
+        flex-direction: column;
+    }
+
+    .featured-card {
+        width: 100%;
+    }
+
+    .featured-card img {
+        height: 280px;
+    }
+
+    .small-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .panel-header h3 {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .popular-treatments {
+        padding: 70px 0;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .product-content h3 {
+        font-size: 1.5rem;
+    }
+
+    .product-image img {
+        width: 180px;
+    }
+
+}
