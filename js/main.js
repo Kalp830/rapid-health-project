@@ -17,3 +17,9 @@ faqItems.forEach(item => {
     });
 
 });
+
+
+
+
+
+

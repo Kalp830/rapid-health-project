@@ -12,6 +12,9 @@
 
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
+
+        
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -29,26 +32,32 @@
                 <a href="#">Support</a>
             </nav>
 
-            <!-- Logo -->
             <div class="logo">
                 <a href="#">
                     <span class="logo-bold">Rapid</span>Health<span class="logo-dot">.</span>
                 </a>
             </div>
 
-            <!-- Right Actions -->
             <div class="nav-actions">
                 <button aria-label="Search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <img src="./assets/images/Search.svg" alt="search icon"/>
                 </button>
 
                 <button aria-label="User Account">
-                    <i class="fa-regular fa-user"></i>
+                    <img src="./assets/images/User.svg" alt="user icon"/>
                 </button>
             </div>
 
+            <button class="menu-toggle" aria-label="Open Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
         </div>
     </header>
+    <div class="mobile-menu">
+        <a href="#">All Conditions</a>
+        <a href="#">Support</a>
+    </div>
 
 <!---Hero Section Start --->
     <section class="hero">
@@ -86,7 +95,7 @@
     <section class="benefits">
         <div class="container">
     
-            <!-- Section Header -->
+            <!-- Benifit Section -->
             <div class="section-header">
                 <h2 class="section-title">
                     Healthcare made simple, safe & convenient<span>.</span>
@@ -161,11 +170,8 @@
                         Join now
                         <span><i class="fa-solid fa-arrow-right"></i></span>
                     </a>
-    
                 </div>
-    
             </div>
-    
         </div>
     </section>
 
@@ -186,9 +192,7 @@
             <div class="treatment-grid">
     
                 <!-- MEN -->
-    
                 <article class="treatment-panel">
-    
                     <div class="panel-header">
                         <h3>Men's Health<span>.</span></h3>
     
@@ -207,9 +211,7 @@
                                 <span class="arrow-up-right">↗</span>
                             </div>
                         </a>
-    
                         <div class="small-cards">
-    
                             <a href="#" class="small-card">
                                 <img src="assets/images/mens-health/hair-loss.jpg"
                                      alt="Hair Loss">
@@ -249,9 +251,7 @@
                                     <span class="arrow-up-right">↗</span>
                                 </div>
                             </a>
-    
                         </div>
-    
                     </div>
     
                 </article>
@@ -259,10 +259,8 @@
                 <!-- WOMEN -->
     
                 <article class="treatment-panel">
-    
                     <div class="panel-header">
                         <h3>Women's Health<span>.</span></h3>
-    
                         <a href="#" class="see-all-btn">
                             See all →
                         </a>
@@ -345,190 +343,326 @@
                     Selected for you
                 </p>
             </div>
-    
-            <div class="product-grid">
-    
-                <!-- Product 1 -->
-    
-                <article class="product-card">
-    
-                    <div class="product-badge">
-                        Most effective
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                        <article class="product-card">
+            
+                            <div class="product-badge">
+                                Most effective
+                            </div>
+            
+                            <div class="product-image">
+                                <img src="assets/images/treatment/wegovy.png"
+                                    alt="Wegovy">
+                            </div>
+            
+                            <div class="product-content">
+            
+                                <h3>Wegovy</h3>
+            
+                                <p class="product-category">
+                                    Weight loss
+                                </p>
+            
+                                <p class="product-description">
+                                    Lose 15% of your weight in one year
+                                </p>
+            
+                                <div class="product-price">
+                                    <strong>$55.00</strong>
+                                    <span>Incl. Rx and shipping</span>
+                                </div>
+            
+                                <a href="#" class="product-btn">
+                                    Buy now →
+                                </a>
+            
+                            </div>
+            
+                        </article>
                     </div>
-    
-                    <div class="product-image">
-                        <img src="assets/images/treatment/wegovy.png"
-                            alt="Wegovy">
+            
+
+                    <div class="swiper-slide">
+            
+                        <article class="product-card">
+            
+                            <div class="product-badge">
+                                Most effective
+                            </div>
+            
+                            <div class="product-image">
+                                <img src="assets/images/treatment/zepbound.png"
+                                    alt="Zepbound">
+                            </div>
+            
+                            <div class="product-content">
+            
+                                <h3>Zepbound</h3>
+            
+                                <p class="product-category">
+                                    Weight loss
+                                </p>
+            
+                                <p class="product-description">
+                                    Lose 15% of your weight in one year
+                                </p>
+            
+                                <div class="product-price">
+                                    <strong>$69.99</strong>
+                                    <span>Incl. Rx and shipping</span>
+                                </div>
+            
+                                <a href="#" class="product-btn">
+                                    Buy now →
+                                </a>
+            
+                            </div>
+            
+                        </article>
                     </div>
-    
-                    <div class="product-content">
-    
-                        <h3>Wegovy</h3>
-    
-                        <p class="product-category">
-                            Weight loss
-                        </p>
-    
-                        <p class="product-description">
-                            Lose 15% of your weight in one year
-                        </p>
-    
-                        <div class="product-price">
-                            <strong>$55.00</strong>
-                            <span>Incl. Rx and shipping</span>
-                        </div>
-    
-                        <a href="#" class="product-btn">
-                            Buy now →
-                        </a>
-    
+            
+                     
+                    <div class="swiper-slide">
+                        <article class="product-card">
+            
+                            <div class="product-badge">
+                                Daily pill
+                            </div>
+            
+                            <div class="product-image">
+                                <img src="assets/images/treatment/wegpvy-pill.png"
+                                    alt="Wegovy pill">
+                            </div>
+            
+                            <div class="product-content">
+            
+                                <h3>Wegovy pill</h3>
+            
+                                <p class="product-category">
+                                    Weight loss
+                                </p>
+            
+                                <p class="product-description">
+                                    Lose 15% of your weight in one year
+                                </p>
+            
+                                <div class="product-price">
+                                    <strong>$55.00</strong>
+                                    <span>Incl. Rx and shipping</span>
+                                </div>
+            
+                                <a href="#" class="product-btn">
+                                    Buy now →
+                                </a>
+            
+                            </div>
+            
+                        </article>
                     </div>
-    
-                </article>
-    
-                <!-- Product 2 -->
-    
-                <article class="product-card">
-    
-                    <div class="product-badge">
-                        Most effective
+                    
+                    <div class="swiper-slide">
+                        <article class="product-card">
+            
+                            <div class="product-badge">
+                                Daily pill
+                            </div>
+            
+                            <div class="product-image">
+                                <img src="assets/images/treatment/foundayo.png"
+                                    alt="Foundayo">
+                            </div>
+            
+                            <div class="product-content">
+            
+                                <h3>Foundayo</h3>
+            
+                                <p class="product-category">
+                                    Weight loss
+                                </p>
+            
+                                <p class="product-description">
+                                    Lose 15% of your weight in one year
+                                </p>
+            
+                                <div class="product-price">
+                                    <strong>$55.00</strong>
+                                    <span>Incl. Rx and shipping</span>
+                                </div>
+            
+                                <a href="#" class="product-btn">
+                                    Buy now →
+                                </a>
+            
+                            </div>
+            
+                        </article>
                     </div>
-    
-                    <div class="product-image">
-                        <img src="assets/images/treatment/zepbound.png"
-                            alt="Zepbound">
+
+
+
+
+                    <div class="swiper-slide">
+                        <article class="product-card">
+            
+                            <div class="product-badge">
+                                Most effective
+                            </div>
+            
+                            <div class="product-image">
+                                <img src="assets/images/treatment/wegovy.png"
+                                    alt="Wegovy">
+                            </div>
+            
+                            <div class="product-content">
+            
+                                <h3>Wegovy</h3>
+            
+                                <p class="product-category">
+                                    Weight loss
+                                </p>
+            
+                                <p class="product-description">
+                                    Lose 15% of your weight in one year
+                                </p>
+            
+                                <div class="product-price">
+                                    <strong>$55.00</strong>
+                                    <span>Incl. Rx and shipping</span>
+                                </div>
+            
+                                <a href="#" class="product-btn">
+                                    Buy now →
+                                </a>
+            
+                            </div>
+            
+                        </article>
                     </div>
-    
-                    <div class="product-content">
-    
-                        <h3>Zepbound</h3>
-    
-                        <p class="product-category">
-                            Weight loss
-                        </p>
-    
-                        <p class="product-description">
-                            Lose 15% of your weight in one year
-                        </p>
-    
-                        <div class="product-price">
-                            <strong>$69.99</strong>
-                            <span>Incl. Rx and shipping</span>
-                        </div>
-    
-                        <a href="#" class="product-btn">
-                            Buy now →
-                        </a>
-    
+            
+
+                    <div class="swiper-slide">
+            
+                        <article class="product-card">
+            
+                            <div class="product-badge">
+                                Most effective
+                            </div>
+            
+                            <div class="product-image">
+                                <img src="assets/images/treatment/zepbound.png"
+                                    alt="Zepbound">
+                            </div>
+            
+                            <div class="product-content">
+            
+                                <h3>Zepbound</h3>
+            
+                                <p class="product-category">
+                                    Weight loss
+                                </p>
+            
+                                <p class="product-description">
+                                    Lose 15% of your weight in one year
+                                </p>
+            
+                                <div class="product-price">
+                                    <strong>$69.99</strong>
+                                    <span>Incl. Rx and shipping</span>
+                                </div>
+            
+                                <a href="#" class="product-btn">
+                                    Buy now →
+                                </a>
+            
+                            </div>
+            
+                        </article>
                     </div>
-    
-                </article>
-    
-                <!-- Product 3 -->
-    
-                <article class="product-card">
-    
-                    <div class="product-badge">
-                        Daily pill
+            
+                     
+                    <div class="swiper-slide">
+                        <article class="product-card">
+            
+                            <div class="product-badge">
+                                Daily pill
+                            </div>
+            
+                            <div class="product-image">
+                                <img src="assets/images/treatment/wegpvy-pill.png"
+                                    alt="Wegovy pill">
+                            </div>
+            
+                            <div class="product-content">
+            
+                                <h3>Wegovy pill</h3>
+            
+                                <p class="product-category">
+                                    Weight loss
+                                </p>
+            
+                                <p class="product-description">
+                                    Lose 15% of your weight in one year
+                                </p>
+            
+                                <div class="product-price">
+                                    <strong>$55.00</strong>
+                                    <span>Incl. Rx and shipping</span>
+                                </div>
+            
+                                <a href="#" class="product-btn">
+                                    Buy now →
+                                </a>
+            
+                            </div>
+            
+                        </article>
                     </div>
-    
-                    <div class="product-image">
-                        <img src="assets/images/treatment/wegpvy-pill.png"
-                            alt="Wegovy pill">
+                    
+                    <div class="swiper-slide">
+                        <article class="product-card">
+            
+                            <div class="product-badge">
+                                Daily pill
+                            </div>
+            
+                            <div class="product-image">
+                                <img src="assets/images/treatment/foundayo.png"
+                                    alt="Foundayo">
+                            </div>
+            
+                            <div class="product-content">
+            
+                                <h3>Foundayo</h3>
+            
+                                <p class="product-category">
+                                    Weight loss
+                                </p>
+            
+                                <p class="product-description">
+                                    Lose 15% of your weight in one year
+                                </p>
+            
+                                <div class="product-price">
+                                    <strong>$55.00</strong>
+                                    <span>Incl. Rx and shipping</span>
+                                </div>
+            
+                                <a href="#" class="product-btn">
+                                    Buy now →
+                                </a>
+            
+                            </div>
+            
+                        </article>
                     </div>
-    
-                    <div class="product-content">
-    
-                        <h3>Wegovy pill</h3>
-    
-                        <p class="product-category">
-                            Weight loss
-                        </p>
-    
-                        <p class="product-description">
-                            Lose 15% of your weight in one year
-                        </p>
-    
-                        <div class="product-price">
-                            <strong>$55.00</strong>
-                            <span>Incl. Rx and shipping</span>
-                        </div>
-    
-                        <a href="#" class="product-btn">
-                            Buy now →
-                        </a>
-    
-                    </div>
-    
-                </article>
-    
-                <!-- Product 4 -->
-    
-                <article class="product-card">
-    
-                    <div class="product-badge">
-                        Daily pill
-                    </div>
-    
-                    <div class="product-image">
-                        <img src="assets/images/treatment/foundayo.png"
-                            alt="Foundayo">
-                    </div>
-    
-                    <div class="product-content">
-    
-                        <h3>Foundayo</h3>
-    
-                        <p class="product-category">
-                            Weight loss
-                        </p>
-    
-                        <p class="product-description">
-                            Lose 15% of your weight in one year
-                        </p>
-    
-                        <div class="product-price">
-                            <strong>$55.00</strong>
-                            <span>Incl. Rx and shipping</span>
-                        </div>
-    
-                        <a href="#" class="product-btn">
-                            Buy now →
-                        </a>
-    
-                    </div>
-    
-                </article>
-    
-            </div>
-    
-            <!-- Slider Dots -->
-    
-            <div class="slider-dots">
-                <span class="active"></span>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-    
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
         </div>
     </section>
-
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    />
-    <title>Customer Reviews</title>
-
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-
-    <main>
 
         <section class="reviews-section">
             <div class="container">
@@ -550,8 +684,10 @@
                     <strong>Trustpilot</strong>
                 </div>
 
-                <div class="reviews-wrapper">
-                    <!-- Card 1 -->
+              
+                    <div class="swiper reviewSwiper">
+                        <div class="swiper-wrapper">
+                    <div class="swiper-slide">
                     <article class="review-card">
                         <img
                             src="./assets/images/testimonial/customer-1.jpg"
@@ -578,16 +714,16 @@
       </span>
     </div>
     <p>
-      The response times were fast and they made sure
-      I was satisfied and more importantly they
-      believed me when I told them about the issue.
+        The response times were fast, they made sure I was satisfied and more 
+        importantly they believed me when I told them about the snafu with my delivery going missing.
     </p>
     <span class="reviewer">Jefferson T</span>
   </div>
   
                     </article>
-
-                    <!-- Card 2 -->
+                    </div>
+                    
+                    <div class="swiper-slide">
                     <article class="review-card">
                         <img
                             src="./assets/images/testimonial/customer-2.jpg"
@@ -606,18 +742,18 @@
                                 </span>
                               </div>
 
-                            <p>
-                                My prescriptions have been delivered in a
-                                timely manner and clear instructions are
-                                included.
+                              <p>
+                                The response times were fast, they made sure I was satisfied and more 
+                                importantly they believed me when missing.
                             </p>
                             <span class="reviewer">
                                 Steve L
                             </span>
                         </div>
                     </article>
+                </div>
 
-                     <!-- Card 3 -->
+                <div class="swiper-slide">
                      <article class="review-card">
                         <img
                             src="./assets/images/testimonial/customer-3.jpg"
@@ -646,8 +782,9 @@
                             </span>
                         </div>
                     </article>
+                </div>
 
-                     <!-- Card 4 -->
+                <div class="swiper-slide">
                      <article class="review-card">
                         <img
                             src="./assets/images/testimonial/customer-4.jpg"
@@ -679,8 +816,8 @@
 
                         </div>
                     </article>
-
-                     <!-- Card 5 -->
+                </div>
+                <div class="swiper-slide">
                      <article class="review-card">
                         <img
                             src="./assets/images/testimonial/customer-5.jpg"
@@ -710,18 +847,13 @@
                             </span>
                         </div>
                     </article>
+                </div>
                     <!-- Repeat remaining cards -->
                 </div>
+                <div class="swiper-pagination review-pagination"></div>
+                    </div>
 
-                <div class="slider-dots">
-
-                    <span class="dot active"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-                    <span class="dot"></span>
-
-                </div>
+                
 
                 <div class="review-link">
                     <a href="#">
@@ -808,19 +940,17 @@
 
         <section class="faq-section">
             <div class="container">
-        
                 <div class="faq-header">
                     <h2 class="section-title">
-                        Still unsure<span>.</span>
+                        Still unsure?
                     </h2>
         
                     <p class="section-subtitle">
-                        Our FAQs can help
+                        Our FAQs can help<span>.</span>
                     </p>
                 </div>
         
                 <div class="faq-wrapper">
-        
                     <div class="faq-item active">
                         <button class="faq-question">
                             <span>How does RapidHealth work?</span>
@@ -914,19 +1044,15 @@
         </section>
         <section class="contact-support">
             <div class="container">
-        
                 <div class="contact-wrapper">
-        
                     <!-- Left Image -->
-        
                     <div class="contact-image">
         
                         <img
-                            src="assets/images/contact/support-person.png"
+                            src="./assets/images/footer-img.png"
                             alt="Customer using mobile phone">
         
                         <!-- Chat Bubble 1 -->
-        
                         <div class="chat-bubble bubble-top">
                             Hello there, how can I
                             help you today?
@@ -977,15 +1103,15 @@
                         <div class="contact-icons">
         
                             <a href="#" aria-label="Call us">
-                                <i class="fa-solid fa-phone"></i>
+                                <img src="./assets/images/Phone.svg" alt="phone"/>
                             </a>
         
                             <a href="#" aria-label="Email us">
-                                <i class="fa-regular fa-envelope"></i>
+                                <img src="./assets/images/Envolap.svg" alt="envolap"/>
                             </a>
         
                             <a href="#" aria-label="Live chat">
-                                <i class="fa-regular fa-comment"></i>
+                                <img src="./assets/images/Chat.svg" alt="chat"/>
                             </a>
         
                         </div>
@@ -1010,10 +1136,93 @@
                 </p>
             </div>
         </footer>
-    </main>
-    <script src="./js/main.js"></script>
-</body>
-</html>
+        
+        <script src="./js/main.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+               
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+               
+                    breakpoints: {
+                    0: {
+                    slidesPerView: 1.15,
+                    spaceBetween: 15
+                    },
+
+                    768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20
+                    },
+
+                    1024: {
+                    slidesPerView: 4,
+                    spaceBetween: 24
+                    }
+
+                    }
+   
+             });
+          </script>
+          <script>
+            var reviewSwiper = new Swiper(".reviewSwiper", {
+                loop: true,
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+            
+                pagination: {
+                    el: ".review-pagination",
+                    clickable: true,
+                },
+            
+                breakpoints: {
+        0: {
+            slidesPerView: 1.15,
+            spaceBetween: 16
+        },
+
+        768: {
+            slidesPerView: 2.2,
+            spaceBetween: 20
+        },
+
+        1024: {
+            slidesPerView: 4.5,
+            spaceBetween: 24
+        },
+
+        1400: {
+            slidesPerView: 4.5,
+            spaceBetween: 24
+        }
+    }
+            });
+            </script>
+         <script>
+            document.addEventListener("DOMContentLoaded", function(){
+            
+                const menuBtn = document.querySelector(".menu-toggle");
+                const mobileMenu = document.querySelector(".mobile-menu");
+            
+                menuBtn.addEventListener("click", function(){
+                    mobileMenu.classList.toggle("active");
+                });
+            
+            });
+            </script>
+
+       
 
 </body>
 </html>
