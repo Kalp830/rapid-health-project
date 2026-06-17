@@ -242,7 +242,7 @@
     }
 
     .hero-title {
-        font-size: 3rem;
+        font-size: 2.8rem;
         margin-bottom: 20px;
         text-align: left;
     }
@@ -292,6 +292,9 @@
     }
     .contact-image{
         top:0;
+    }
+    .review-link{
+        text-align: center;
     }
 }
 
