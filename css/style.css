@@ -742,17 +742,14 @@ body {
     gap: 24px;
 }
 
-/* CARD */
 
 .step-card {
     position: relative;
     overflow: hidden;
     border-radius: 28px;
     min-height: 420px;
-
     transition: .3s ease;
 }
-
 .step-card:hover {
     transform: translateY(-5px);
 }
@@ -764,8 +761,6 @@ body {
     display: block;
 }
 
-/* CONTENT */
-
 .step-content {
     position: absolute;
     top: 26px;
@@ -774,9 +769,6 @@ body {
 
     z-index: 2;
 }
-
-/* NUMBER + TITLE */
-
 .step-heading {
     display: flex;
     align-items: center;
@@ -803,8 +795,6 @@ body {
     font-weight: 700;
     font-family: "Figtree", sans-serif;
 }
-
-/* DESCRIPTION */
 
 .step-content p {
     max-width: 280px;
@@ -867,7 +857,6 @@ body {
     overflow: hidden;
 }
 
-/* QUESTION */
 
 .faq-question {
     width: 100%;
@@ -923,10 +912,6 @@ body {
     border-radius: 10px;
 }
 
-
-
-
-
 /* ==================================
    CONTACT SUPPORT
 ================================== */
@@ -943,22 +928,15 @@ body {
     justify-content: space-between;
     gap: 60px;
 }
-
-/* IMAGE SIDE */
-
 .contact-image {
     flex: 1;
     position: relative;
     top:-164px;
 }
-
 .contact-image img {
     width: 100%;
     display: block;
 }
-
-/* CHAT BUBBLES */
-
 .chat-bubble {
     position: absolute;
     background: #61728a;
@@ -983,8 +961,6 @@ body {
     border-radius: 20px 20px 20px 0px;
 }
 
-/* SMALL LOGO */
-
 .logo-bubble {
     position: absolute;
     top: 125px;
@@ -1000,8 +976,6 @@ body {
 
     font-weight: 700;
 }
-
-/* CONTENT */
 
 .contact-content {
     flex: 1;
@@ -1019,8 +993,6 @@ body {
     margin-bottom: 25px;
 }
 
-/* TEXT */
-
 .availability {
     color: #5f7085;
     line-height: 1.8;
@@ -1032,8 +1004,6 @@ body {
     color: #123b67;
 }
 
-/* ICONS */
-
 .contact-icons {
     display: flex;
     gap: 20px;
@@ -1043,21 +1013,15 @@ body {
 .contact-icons a {
     width: 52px;
     height: 52px;
-
     background: #fff;
-
     border-radius: 10px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     color: #123b67;
     font-size: 1.5rem;
-
     transition: .3s ease;
 }
-
 .contact-icons a:hover {
     background: #c6d8ec;
     color: white;
@@ -1146,7 +1110,6 @@ body {
     transition: 0.3s ease;
 }
 
-
 .review-image {
     width: 100%;
     height: 210px;
@@ -1170,7 +1133,6 @@ body {
 }
 .reviewSwiper {
     overflow: hidden !important;
-    /* padding-left: 136px; */
 }
 
 .reviews-section {
